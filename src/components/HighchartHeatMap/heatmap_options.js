@@ -28,10 +28,14 @@ export function getOptions()  {
             }
         },
         xAxis: {
+            min:0,
+            max:100,
             categories: require("./heat_map_x_axis_categories.json")
         },
 
         yAxis: {
+            min:0,
+            max:100,
             categories: require("./heat_map_y_axis_categories.json"),
             title: null,
             reversed: true
@@ -41,7 +45,6 @@ export function getOptions()  {
             minColor: '#FFFFFF',
             maxColor: '#1fc3ce'
         },
-
         legend: {
             align: 'right',
             layout: 'vertical',
@@ -53,8 +56,8 @@ export function getOptions()  {
 
         tooltip: {
             formatter: function () {
-                return '<b>' + getPointCategoryName(this.point, 'x') + '</b> sold <br><b>' +
-                    this.point.value + '</b> items on <br><b>' + getPointCategoryName(this.point, 'y') + '</b>';
+                return '<b>' + getPointCategoryName(this.point, 'x') + '</b> has production of <br><b>' +
+                    this.point.value + '</b> for <br><b>' + getPointCategoryName(this.point, 'y') + '</b>';
             }
         },
 
@@ -64,7 +67,12 @@ export function getOptions()  {
             data: require('./heat_map_data_points_1k.json'),
             dataGrouping: {
                 enabled: false
-            }
+            },
+            accessibility: {
+                enabled: false
+            },
+            seriesThreshold: 1,
+            turboThreshold: 0
         }],
 
         responsive: {

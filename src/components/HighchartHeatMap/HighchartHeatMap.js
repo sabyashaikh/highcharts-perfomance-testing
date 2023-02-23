@@ -17,7 +17,7 @@ const HighchartHeatMap = (props) => {
 		setIsLoading(false)
 		const endTime = new Date()
 		console.log("Time elapsed for chart: ",props.id, " is: ",  endTime-startTime)
-	},[]);
+	});
 	let  element
 	if (isLoading) {
 		element = <div>Loading...</div>

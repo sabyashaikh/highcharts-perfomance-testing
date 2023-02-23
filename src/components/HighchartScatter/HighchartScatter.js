@@ -16,7 +16,7 @@ const HighchartScatter = (props) => {
 		const endTime = new Date()
 		//console.log("Done loading chart: ", props.id , " at ", endTime )
 		console.log("Time elapsed for chart: ",props.id, " is: ",  endTime-startTime)
-	},[]);
+	});
 	let  element
 	if (isLoading) {
 		 element = <div>Loading...</div>

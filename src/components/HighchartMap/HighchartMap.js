@@ -13,7 +13,7 @@ const HighchartMap = (props) => {
 		setIsLoading(false)
 		const endTime = new Date()
 		console.log("Time elapsed for chart: ",props.id, " is: ",  (endTime-startTime/1000))
-	},[]);
+	});
 	let  element
 	if (isLoading) {
 		element = <div>Loading...</div>

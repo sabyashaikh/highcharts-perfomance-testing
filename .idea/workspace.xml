@@ -5,37 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4780380-3a55-4d0d-9606-ee184130317b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartHeatMap/heat_map_data_points_100k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartHeatMap/heat_map_data_points_1k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartHeatMap/heat_map_data_points_300k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartHeatMap/heat_map_data_points_50k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartHeatMap/heat_map_x_axis_categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartHeatMap/heat_map_y_axis_categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartHeatMap/heatmap_options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartMap/map_options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartMap/topology.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartScatter/scatter_chart_data_points_100k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartScatter/scatter_chart_data_points_1k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartScatter/scatter_chart_data_points_300k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartScatter/scatter_chart_data_points_50k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartScatter/scatter_options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartStock/stock_chart_data_points_100k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartStock/stock_chart_data_points_1k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartStock/stock_chart_data_points_300k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartStock/stock_chart_data_points_50k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartStock/stock_options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MainApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Scatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Stock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HighchartHeatMap/HighchartHeatMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HighchartHeatMap/HighchartHeatMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HighchartHeatMap/heatmap_options.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HighchartHeatMap/heatmap_options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HighchartMap/HighchartMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HighchartMap/HighchartMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HighchartScatter/HighchartScatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HighchartScatter/HighchartScatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HighchartStock/HighchartStock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HighchartStock/HighchartStock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +67,7 @@
       <workItem from="1676885653494" duration="82000" />
       <workItem from="1676885741496" duration="31319000" />
       <workItem from="1677064723836" duration="7271000" />
-      <workItem from="1677076066665" duration="10914000" />
+      <workItem from="1677076066665" duration="16131000" />
     </task>
     <servers />
   </component>
