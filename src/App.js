@@ -1,7 +1,12 @@
 import './App.css';
 import { Outlet, Link } from "react-router-dom";
+import {createRandomComboData} from "./helper";
 
 function App() {
+    //createRandomData(1000)
+    //createRandomTimeData(1000)
+    //createRandomHeatMapData(1000)
+    //createRandomComboData(12, 100)
     return (
         <>
             <nav>
@@ -19,10 +24,13 @@ function App() {
                         <Link to="/map">Map charts</Link>
                     </li>
                     <li>
+                        <Link to="/combo">Combo Charts</Link>
+                    </li>
+                    <li>
                         <Link to="/stock">Stock Charts</Link>
                     </li>
                     <li>
-                        <Link to="/all">All charts</Link>
+                        <Link to="/overview">All charts</Link>
                     </li>
                 </ul>
             </nav>

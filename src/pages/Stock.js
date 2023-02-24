@@ -5,7 +5,7 @@ import dp_1k from "../components/HighchartStock/stock_chart_data_points_1k.json"
 
 function Stock() {
     let { id } = useParams();
-    let dataPoints = []
+    let dataPoints = require("../components/HighchartStock/stock_chart_data_points_1k.json")
     if (id==="300") {
         dataPoints = require("../components/HighchartStock/stock_chart_data_points_300k.json")
     }else if(id==="100"){

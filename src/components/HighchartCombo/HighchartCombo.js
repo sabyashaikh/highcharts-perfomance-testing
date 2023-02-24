@@ -1,13 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import Highcharts from 'highcharts'
 import HighchartsReact from 'highcharts-react-official'
-import { onChartRender } from "../../helper";
-import {getOptions} from "./scatter_options";
+import {getOptions} from "./combo_options";
 
-const HighchartScatter = (props) => {
+const HighchartCombo = (props) => {
 	const [isLoading, setIsLoading ]= useState(true)
 	const customOptions=getOptions()
-	customOptions.series[0].data=props.dataPoints.data
+	customOptions.series=props.dataPoints.data
 	customOptions.title.text=props.title
 	const startTime = new Date()
 	console.log("Started loading at :", startTime)
@@ -28,4 +27,4 @@ const HighchartScatter = (props) => {
 		</div>
 	)
 }
-export default HighchartScatter;
+export default HighchartCombo;

@@ -5,7 +5,7 @@ import HighchartScatter from "../components/HighchartScatter";
 
 function Scatter() {
     let { id } = useParams();
-    let dataPoints = []
+    let dataPoints = require("../components/HighchartScatter/scatter_chart_data_points_1k.json")
     if (id==="300") {
         dataPoints = require("../components/HighchartScatter/scatter_chart_data_points_300k.json")
     }else if(id==="100"){

@@ -4,7 +4,7 @@ import {Link, useParams,} from "react-router-dom";
 
 const Heatmap = () => {
     let { id } = useParams();
-    let dataPoints = []
+    let dataPoints =  require("../components/HighchartHeatMap/heat_map_data_points_1k.json")
     if (id==="300") {
         dataPoints = require("../components/HighchartHeatMap/heat_map_data_points_300k.json")
     }else if(id==="100"){

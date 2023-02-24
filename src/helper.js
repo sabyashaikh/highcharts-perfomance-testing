@@ -84,6 +84,46 @@ export  const createRandomHeatMapData = (count=10000) => {
     a3.click();
 }
 
+export  const createRandomComboData = (dataPointCount=12, seriesCount=5) => {
+    let data=[] , i, series = [], x ;
+    for (x = 1; x <= seriesCount; x ++) {
+        data=[]
+        for (i = 1; i <= dataPointCount; i += 1) {
+            data.push(
+                Math.floor(Math.random() * 100)
+            );
+        }
+        series.push({
+            type: "spline",
+            data: data,
+            marker: {
+                lineWidth: 2
+            }
+        })
+    }
+    data=[]
+    for (i = 1; i <= dataPointCount; i += 1) {
+        data.push(
+            Math.floor(Math.random() * 100)
+        );
+    }
+    series.push({
+        type: "column",
+        data: data
+    })
+
+    let blob = new Blob([JSON.stringify(series,null, 2)], {
+        type: "application/json",
+    });
+    const a = document.createElement('a');
+    a.download = 'combo_chart_data_points_k.json';
+    a.href = URL.createObjectURL(blob);
+    a.addEventListener('click', (e) => {
+        setTimeout(() => URL.revokeObjectURL(a.href), 30 * 1000);
+    });
+    a.click();
+}
+
 export function onChartRender(id, startTime) {
     return (event)=> {
         const endTime=new Date()
