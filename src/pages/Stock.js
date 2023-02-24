@@ -1,7 +1,5 @@
-import HighchartHeatMap from "../components/HighchartHeatMap/HighchartHeatMap";
 import {Link, useParams} from "react-router-dom";
 import HighchartStock from "../components/HighchartStock";
-import dp_1k from "../components/HighchartStock/stock_chart_data_points_1k.json";
 
 function Stock() {
     let { id } = useParams();

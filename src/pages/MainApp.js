@@ -2,11 +2,7 @@ import '../App.css';
 import HighchartStock from "../components/HighchartStock";
 import HighchartMap from "../components/HighchartMap";
 import HighchartScatter from "../components/HighchartScatter";
-import {createRandomComboData, createRandomData, createRandomHeatMapData} from "../helper";
-import {createRandomTimeData} from "../helper";
 import HighchartHeatMap from "../components/HighchartHeatMap/HighchartHeatMap";
-import dp_100k from "../components/HighchartStock/stock_chart_data_points_100k.json";
-import scatter_dp_100k from "../components/HighchartScatter/scatter_chart_data_points_100k.json";
 import HighchartCombo from "../components/HighchartCombo";
 
 function MainApp() {

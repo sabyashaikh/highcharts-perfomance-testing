@@ -1,4 +1,3 @@
-import HighchartHeatMap from "../components/HighchartHeatMap/HighchartHeatMap";
 
 function Home() {
     return (
