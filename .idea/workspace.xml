@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4780380-3a55-4d0d-9606-ee184130317b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartCombo/HighchartCombo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartCombo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartCombo/combo_chart_series_10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartCombo/combo_chart_series_100.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartCombo/combo_chart_series_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartCombo/combo_chart_series_50.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartCombo/combo_options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HighchartCombo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Combo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HighchartScatter/HighchartScatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HighchartScatter/HighchartScatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Heatmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Heatmap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Scatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Scatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Stock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Stock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +63,7 @@
       <workItem from="1676885741496" duration="31319000" />
       <workItem from="1677064723836" duration="7271000" />
       <workItem from="1677076066665" duration="16730000" />
-      <workItem from="1677229050293" duration="10382000" />
+      <workItem from="1677229050293" duration="10983000" />
     </task>
     <servers />
   </component>
